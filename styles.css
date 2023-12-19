@@ -1,0 +1,114 @@
+@font-face {
+    font-family: open-sans;
+    src: url(./assets/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+* {
+    font-family: open-sans;
+    color: white;
+}
+
+body {
+    height:2000px;
+    background: linear-gradient(to bottom, #28acb5, #fd0202);
+}
+
+.top-container {
+    border: green dotted;
+}
+
+.top-bar {
+    padding: 15px;
+    border: #6528b5 dotted;
+}
+  
+.profile-picture-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-picture {
+    display: block;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+    filter: drop-shadow(0 0 0.2rem rgb(0, 0, 0))
+}
+
+.name-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name {
+    text-align: center;
+    font-weight: 700px;
+    margin: 0px;
+    font-size: 30px;
+    line-height: 1.5;
+    white-space-collapse: collapse;
+    text-wrap: nowrap;
+}
+
+.short-bio-container {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 4px;
+}
+
+.bio {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.links-container {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 32px;
+}
+
+.link-button {
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    border: rgb(29, 29, 29) solid;
+    background-color: black;
+    height: 25%;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    border-radius: 5em;
+    transition: background-color 0.3s, color 0.3s;
+    filter: drop-shadow(0 0 0.2rem black);
+}
+
+.link-button .smile {
+    margin-right: 0.5em;
+    font-size: 1.5em;
+}
+
+.link-button:hover{ 
+    background-color: white;
+}
+
+.link-button:hover h3 {
+    color: black;
+}
+
+.link-button:hover .smile {
+    color: black;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+a {
+    color: transparent;
+}
