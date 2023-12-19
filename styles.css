@@ -12,13 +12,8 @@ body {
     background: linear-gradient(to bottom, #28acb5, #fd0202);
 }
 
-.top-container {
-    border: green dotted;
-}
-
 .top-bar {
     padding: 15px;
-    border: #6528b5 dotted;
 }
   
 .profile-picture-container {
